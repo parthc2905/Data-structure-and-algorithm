@@ -21,9 +21,9 @@ void treeCreate()
     {
         p = dequeue(&q);
         printf("Enter left child of %d: ",p->data);
-        scanf("%d", &x);    
+        scanf("%d", &x); 
         if (x != -1)
-        {
+        {  
             t = (struct Node *)malloc(sizeof(struct Node));
             t->data = x;
             t->lchild = t->rchild = NULL;
